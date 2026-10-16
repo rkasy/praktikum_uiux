@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan Motor - Maju Jaya Motor</title>
+</head>
+<body>
+
+<header>
+    <h1>Maju Jaya Motor</h1>
+    <p>Dealer Resmi Sepeda Motor - Form Pemesanan Unit</p>
+</header>
+
+<hr>
+
+<main>
+<form action="prak2_kelompok_11_desainuiux_pemweb_hasil.html" method="GET">
+
+    <fieldset>
+        <legend>Data Pemesan (sesuai KTP)</legend>
+
+        <p>
+            <label for="nama">Nama Lengkap :</label><br>
+            <input type="text" name="nama" id="nama" size="35" maxlength="60" required>
+        </p>
+
+        <p>
+            <label for="nik">NIK (16 digit) :</label><br>
+            <input type="text" name="nik" id="nik" size="20" maxlength="16" required>
+        </p>
+
+        <p>
+            <label for="hp">No. HP / WhatsApp :</label><br>
+            <input type="tel" name="hp" id="hp" size="20" maxlength="14" required>
+        </p>
+
+        <p>
+            <label for="alamat">Alamat Lengkap (sesuai KTP) :</label><br>
+            <textarea name="alamat" id="alamat" cols="40" rows="3" required></textarea>
+        </p>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Pilihan Motor</legend>
+
+        <p>
+            <label for="motor">Tipe Motor :</label><br>
+            <select name="motor" id="motor">
+                <optgroup label="Honda">
+                    <option value="Honda BeAT">Honda BeAT - Rp 19.000.000</option>
+                    <option value="Honda Vario 125">Honda Vario 125 - Rp 24.500.000</option>
+                    <option value="Honda Scoopy">Honda Scoopy - Rp 24.000.000</option>
+                    <option value="Honda PCX 160">Honda PCX 160 - Rp 34.500.000</option>
+                </optgroup>
+                <optgroup label="Yamaha">
+                    <option value="Yamaha Mio M3">Yamaha Mio M3 - Rp 19.500.000</option>
+                    <option value="Yamaha Fazzio">Yamaha Fazzio - Rp 25.500.000</option>
+                    <option value="Yamaha Aerox 155">Yamaha Aerox 155 - Rp 28.500.000</option>
+                    <option value="Yamaha NMAX 155">Yamaha NMAX 155 - Rp 33.500.000</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="warna">Pilihan Warna :</label><br>
+            <select name="warna" id="warna">
+                <option value="Hitam">Hitam</option>
+                <option value="Putih">Putih</option>
+                <option value="Merah">Merah</option>
+                <option value="Biru">Biru</option>
+                <option value="Abu-abu">Abu-abu</option>
+            </select>
+        </p>
+
+        <p><i>Catatan: harga di atas adalah harga contoh, bisa berbeda sesuai wilayah dan promo.</i></p>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Metode Pembayaran</legend>
+
+        <p>
+            Cara Pembelian :<br>
+            <input type="radio" name="pembelian" id="tunai" value="Tunai" checked>
+            <label for="tunai">Tunai</label><br>
+            <input type="radio" name="pembelian" id="kredit" value="Kredit">
+            <label for="kredit">Kredit</label>
+        </p>
+
+        <p>
+            <label for="tandajadi">Uang Tanda Jadi (Rp) :</label><br>
+            <input type="number" name="tandajadi" id="tandajadi" min="500000" step="100000" value="500000" required>
+        </p>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Pengambilan Unit</legend>
+
+        <p>
+            <input type="radio" name="ambil" id="ambil1" value="Ambil sendiri di dealer" checked>
+            <label for="ambil1">Ambil sendiri di dealer</label><br>
+            <input type="radio" name="ambil" id="ambil2" value="Diantar ke alamat sesuai KTP">
+            <label for="ambil2">Diantar ke alamat (sesuai KTP)</label>
+        </p>
+
+        <p>
+            <label for="tanggal">Rencana Tanggal Pengambilan :</label><br>
+            <input type="date" name="tanggal" id="tanggal" required>
+        </p>
+    </fieldset>
+
+    <br>
+
+    <p>
+        <input type="checkbox" name="setuju" id="setuju" value="Ya" required>
+        <label for="setuju">Data yang saya isi sudah benar dan uang tanda jadi akan dihitung sebagai bagian dari pembayaran.</label>
+    </p>
+
+    <input type="submit" value="Pesan Motor">
+    <input type="reset" value="Kosongkan Form">
+
+</form>
+</main>
+
+<hr>
+
+<footer>
+    <p>Tugas Desain UI/UX - Program Studi Sistem Informasi &amp; Teknik Informatika</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Black Goose Bistro| Pizza-on-Demand</h1>
+        <p>
+            our pizza  12&qued; wood-fired pizzas are ready for delivery
+        </p>
+        <form action="hasil.html" 
+        method="get">
+            <fieldset border="1">
+            <legend>Your Information</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            
+            <p>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+            </p>
+
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="instructions">Delivery Instructions:</label>
+                <textarea
+                id="instructions"
+                name="instructions"
+                rows="4"
+                cols="50"
+                maxlength="400"
+                placeholder="No more than 400 characters."></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Design your dream pizza</legend>
+            <p>Pizza style</p>
+            <p>pilih 1:</p>
+
+            <p>
+                <input type="radio" id="classic" name="crust"
+                value="classic white" required>
+                <label for="classic">Classic White</label><br>
+
+                <input type="radio" id="cheese" name="crust"
+                value="cheese" required>
+                <label for="cheese">Cheese</label><br>
+
+                <input type="radio" id="gluten-free" name="crust"
+                value="gluten-free" required>
+                <label for="gluten-free">gluten-free</label><br>
+
+                <input type="radio" id="beef-lover" name="crust"
+                value="beef lover" required>
+                <label for="beef-lover">beef lover</label><br>
+            </p>
+
+            <p>Topping</p>
+
+            <p>
+                <input type="checkbox" id="red-sauce" 
+                name="toppings" value="red sauce" checked>
+                <label for="red-sauce">Red Sauce</label><br>
+
+                <input type="checkbox" id="beef" 
+                name="toppings" value="beef">
+                <label for="beef">Beef</label><br>
+
+                <input type="checkbox" id="sosis" 
+                name="toppings" value="sosis">
+                <label for="sosis">Sosis</label><br>
+
+                <input type="checkbox" id="paprika" 
+                name="toppings" value="paprika">
+                <label for="paprika">Paprika</label><br>
+
+                <input type="checkbox" id="tuna" 
+                name="toppings" value="tuna">
+                <label for="tuna">Tuna</label><br>
+
+                <input type="checkbox" id="chicken" 
+                name="toppings" value="chicken">
+                <label for="chicken">Chicken</label><br>
+
+                <input type="checkbox" id="black-pepper" 
+                name="toppings" value="black pepper">
+                <label for="black-pepper">Black Pepper</label><br>
+            </p>
+
+            <p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" 
+                name="quantity" min="1" max="10">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+        </form>
+    </body>
+    </html>
