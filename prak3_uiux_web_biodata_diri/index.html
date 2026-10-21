@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3 - Layout Halaman Web</title>
+</head>
+<frameset rows="100,*,50" frameborder="0" border="0">
+    <!-- header -->
+    <frame src="header.html" name="headerframe" scrolling="no">
+
+    <!-- sidebar & main content -->
+    <frameset cols="25%,75%">
+        <frame src="sidebar.html" name="menuframe">
+        <frame src="/prak3_uiux_web_biodata_diri/layout/layout.html" name="showframe">
+    </frameset>
+
+    <!-- footer -->
+    <frame src="footer.html" name="footerframe" scrolling="no">
+</frameset>
+</html>

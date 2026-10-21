@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Muhammad Rifhan Kasyfa</title>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Rowman", Arial, Helvetica, sans-serif;
+    }
+
+    head, body {
+        background-color: #dfe7e0;
+        text-align: center;
+        color: #5c6d62;
+    }
+
+    html, body {
+        width: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        line-height: 1.6;
+        padding: 10px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    header {
+        background-color: #4a7759;
+        background-color: #;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-weight: bold;
+        border: 1px solid #d3ddd5;
+    }
+
+    nav {
+        background-color: #4a7759;
+        background-color: #;
+        padding: 15px;
+        text-align: left;
+        border: 1px solid #d3ddd5;
+    }
+
+    nav a {
+        margin-right: 24px;
+        font-size: 14px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+    .main-content {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    article {
+        flex: 3;
+        background-color: #4a7759;
+        padding: 15px;
+        border: 1px solid #d3ddd5;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+        section {
+        background-color: #f9fbf9;
+        padding: 20px;
+        border: 1px solid #e3e9e4;
+    }
+
+    aside {
+        flex: 1;
+        background-color: #4a7759;
+        background-color: #;
+        padding: 15px;
+        border: 1px solid #d3ddd5;
+    }
+
+    footer {
+        background-color: #dfe7e0;
+        padding: 20px;
+        text-align: center;
+        font-size: 13px;
+        color: #4a7759;
+        border: 1px solid #58635b;
+    }
+
+    /* judul bagian */
+    h3 {
+        margin-bottom: 14px;
+        padding-bottom: 8px;
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+    }
+
+    h4 {
+        margin: 16px 0 8px 0;
+        font-size: 14px;
+    }
+
+    /* biodata */
+    .biodata {
+        display: flex;
+        gap: 24px;
+    }
+
+    .foto-diri {
+        width: 140px;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 6px;
+        background-color: #d3ddd5;
+    }
+
+    .data {
+        flex: 1;
+    }
+
+    .baris {
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    .kiri {
+        width: 130px;
+        color: #000000;
+    }
+
+    .kanan {
+        flex: 1;
+    }
+
+    ol {
+        padding-left: 22px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    /* deskripsi */
+    section p {
+        margin-bottom: 12px;
+        text-align: Times New Roman, Arial, Helvetica, sans-serif;
+    }
+
+    section p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* video */
+    video {
+        width: 100%;
+        max-width: 480px;
+        border-radius: 6px;
+        background-color: #2f3a33;
+    }
+
+    /* link download */
+    .unduh {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid #2f3a33;
+        border-radius: 4px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .unduh:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    /* aside: koleksi foto */
+    aside img {
+        display: block;
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 6px;
+        background-color:#000000;
+        margin-bottom: 12px;
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- header: logo dan nama web -->
+        <header>
+            <p>Profil Muhammad Rifhan Kasyfa</p>
+        </header>
+
+        <!-- nav: menu -->
+        <nav>
+            <a href="#biodata">Biodata</a>
+            <a href="#deskripsi">Deskripsi Diri</a>
+            <a href="#video">Video</a>
+            <a href="#unduhan">Unduhan</a>
+        </nav>
+
+        <!-- article (section-section) & aside (foto) -->
+        <div class="main-content">
+            <article>
+                <section id="biodata">
+                    <h3>Biodata</h3>
+                    <div class="biodata">
+                        <img class="foto-diri" src="/prak3_uiux_web_biodata_diri/layout/foto/foto pembuat.jpg" alt="Foto Muhammad Rifhan Kasyfa">
+                        <div class="data">
+                            <div class="baris">
+                                <div class="kiri">Nama Lengkap</div>
+                                <div class="kanan">Muhammad Rifhan Kasyfa</div>
+                            </div>
+                            <div class="baris">
+                                <div class="kiri">Rombel</div>
+                                <div class="kanan">7</div>
+                            </div>
+                            <div class="baris">
+                                <div class="kiri">Tempat, Tgl Lahir</div>
+                                <div class="kanan">Depok, 15 November 2007</div>
+                            </div>
+                            <div class="baris">
+                                <div class="kiri">Alamat</div>
+                                <div class="kanan">JL. Bungur 2 no 49A</div>
+                            </div>
+                            <div class="baris">
+                                <div class="kiri">Email</div>
+                                <div class="kanan">muhrifhan6@gmail.com</div>
+                            </div>
+                            <h4>Minat &amp; Keahlian</h4>
+                            <ol>
+                                <li>Fotografi</li>
+                                <li>Taekwondo</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="deskripsi">
+                    <h3>Deskripsi Diri</h3>
+                    <p>Saya Muhammad Rifhan Kasyfa, lahir di Depok pada 15 November 2007. Saat ini saya berkuliah di STT Nurul Fikri pada program studi Teknik Informatika dan tergabung di Rombel 7. Saya tertarik mempelajari pemrograman web dan desain antarmuka.</p>
+                    <p>Di luar perkuliahan, saya menyukai fotografi dan berlatih Taekwondo. Fotografi melatih saya melihat komposisi dan detail, sedangkan Taekwondo melatih disiplin dan fokus. Keduanya membantu saya tetap seimbang dalam belajar.</p>
+                </section>
+
+                <section id="video">
+                    <h3>Video</h3>
+                    <video controls>
+                        <source src="/prak3_uiux_web_biodata_diri/layout/Video/web video.mp4" type="video/mp4">
+                        Browser kamu tidak mendukung tag video.
+                    </video>
+                </section>
+
+                <section id="unduhan">
+                    <h3>Unduhan</h3>
+                    <a class="unduh" href="/prak3_uiux_web_biodata_diri/layout/Dokumen/cv-rifhan.pdf" download>Unduh CV (PDF)</a>
+                </section>
+            </article>
+
+            <aside>
+                <h3>Koleksi Foto</h3>
+                <img src="foto/taekwondo.jpg" alt="Koleksi foto 1">
+                <img src="foto/fotografi_1.jpg" alt="Koleksi foto 2">
+                <img src="foto/fotografi_2.jpg" alt="Koleksi foto 3">
+                <img src="foto/fotografi_3.jpg" alt="Koleksi foto 4">
+            </aside>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            Muhammad Rifhan Kasyfa
+        </footer>
+
+    </div>
+</body>
+</html>
