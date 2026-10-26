@@ -1,1 +1,168 @@
-body 
+/* ---------- HALAMAN (body) ---------- */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+    color: #333333;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+
+/* ---------- JUDUL & TEKS ---------- */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+    margin-bottom: 3px;
+}
+
+p {
+    color: black
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* ---------- HEADER (judul + kutipan Soekarno) ---------- */
+#header {
+    background-color: burlywood;
+    padding: 8px 14px 12px 14px;
+    text-align: center;
+}
+
+#header h1 {
+    color: blue;
+    font-size: 1.25em;
+    margin: 8px 0;
+}
+
+blockquote {
+    background-color: gold;
+    border: 1px solid #b8860b;
+    margin: 0 auto;
+    padding: 3px 8px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#soekarno {
+    font-weight: bold;
+}
+
+
+/* ---------- MENU (Profil | Budidaya | Harga) ---------- */
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+/* ---------- GAMBAR UTAMA (2 foto di atas) ---------- */
+.gambar {
+    text-align: center;
+}
+
+.gambar img {
+    width: 30%;
+    border: 5px solid navy;
+}
+
+
+/* ---------- PARAGRAF PEMBUKA ---------- */
+.isi {
+    background-color: rgb(255, 228, 225);
+    border: 1px solid silver;
+    padding: 5px 25px;
+}
+
+.jawa {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+
+/* ---------- PROFIL ---------- */
+#profil {
+    background-color: rgb(255, 228, 225);
+    padding: 20px 25px 10px;
+    margin-top: 20px;
+}
+
+#profil ul {
+    text-align: justify;
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+#profil li {
+    display: list-item;
+    margin: 0 0 8px 0;
+}
+
+
+/* ---------- CARA BERTERNAK ---------- */
+#beternak {
+    background-color: rgb(255, 240, 245);
+    padding: 20px 25px 10px;
+    margin-top: 20px;
+}
+
+#beternak ol {
+    list-style-type: decimal-leading-zero;
+}
+
+#beternak li {
+    margin: 0 0 8px 0;
+}
+
+
+/* ---------- KOLEKSI FOTO (4 gambar) ---------- */
+.koleksi {
+    background-color: navy;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.koleksi img {
+    width: 22%;
+}
+
+
+/* ---------- PROMO / HARGA ---------- */
+.promo {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 5px 20px 15px;
+    margin-top: 20px;
+}
+
+del {
+    color: black;
+}
+
+strong {
+    color: blue;
+}
+
+#Wa {
+    background-color: white;
+    color: pink;
+    font-weight: bold;
+    padding: 3px 10px;
+}
