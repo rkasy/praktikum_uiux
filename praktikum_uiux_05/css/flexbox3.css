@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; }
+.galeri {
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.baris { display: flex; gap: 4px; }
+.baris img {
+    flex: 1;
+    min-width: 0;
+    height: 132px;
+    object-fit: cover;
+    background-color: #e0e0e0;
+    border: 3px solid #222;
+    border-radius: 6px;
+}

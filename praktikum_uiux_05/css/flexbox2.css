@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; font-family: "Times New Roman", serif; font-size: 14px; }
+.wrapper {
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header, footer {
+    background-color: #f0e68c;
+    height: 40px;
+    padding: 10px;
+}
+.main { display: flex; height: 116px; }
+article { flex: 1; background-color: #ffffff; padding: 10px; }
+aside   { width: 72px; background-color: pink; padding: 10px; }
+nav     { width: 72px; background-color: #00dcc8; padding: 10px; }

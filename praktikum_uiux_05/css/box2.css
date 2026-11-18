@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; }
+.wrapper { width: 600px; margin: 0 auto; }
+.header {
+    height: 100px;
+    background-color: #aedf91;
+    border: 1px solid #333;
+}
+.baris { overflow: hidden; margin-top: 12px; }
+.header + .baris { margin-top: 28px; }
+.kecil {
+    float: left;
+    width: 15%;
+    height: 75px;
+    background-color: #f5e942;
+    border: 1px solid #333;
+}
+.lebar {
+    float: right;
+    width: 75%;
+    height: 75px;
+    border: 1px solid #333;
+}
+.oranye { background-color: #ff6622; }
+.biru   { background-color: #4dd8fa; }

@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; }
+.wrapper { width: 650px; margin: 0 auto; overflow: hidden; }
+.atas, .tengah { float: left; border: 1px solid #333; }
+.atas { height: 35px; }
+.kuning { width: 19%; background-color: #f5e942; }
+.oranye { width: 78.5%; margin-left: 2.5%; background-color: #ff6622; }
+.tengah { height: 238px; margin-top: 8px; }
+.hijau { width: 19%; clear: left; background-color: #aedf91; }
+.abu   { width: 57%; margin-left: 2.5%; background-color: #d1d5d9; }
+.biru  { width: 19%; margin-left: 2.5%; background-color: #4dd8fa; }
+.footer {
+    clear: both;
+    height: 28px;
+    margin-top: 8px;
+    background-color: #1565f5;
+    border: 1px solid #333;
+}

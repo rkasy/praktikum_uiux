@@ -1,5 +1,4 @@
-/* ---------- HALAMAN (body) ---------- */
-body {
+body {  
     background-color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
     color: #333333;
@@ -8,8 +7,6 @@ body {
     padding: 15px 20px;
 }
 
-
-/* ---------- JUDUL & TEKS ---------- */
 h1 {
     text-align: center;
     color: white;
@@ -31,7 +28,7 @@ p {
 }
 
 
-/* ---------- HEADER (judul + kutipan Soekarno) ---------- */
+
 #header {
     background-color: burlywood;
     padding: 8px 14px 12px 14px;
@@ -58,7 +55,7 @@ blockquote {
 }
 
 
-/* ---------- MENU (Profil | Budidaya | Harga) ---------- */
+
 ul {
     text-align: center;
     list-style-type: none;
@@ -71,7 +68,7 @@ li {
 }
 
 
-/* ---------- GAMBAR UTAMA (2 foto di atas) ---------- */
+
 .gambar {
     text-align: center;
 }
@@ -82,7 +79,7 @@ li {
 }
 
 
-/* ---------- PARAGRAF PEMBUKA ---------- */
+
 .isi {
     background-color: rgb(255, 228, 225);
     border: 1px solid silver;
@@ -95,7 +92,7 @@ li {
 }
 
 
-/* ---------- PROFIL ---------- */
+
 #profil {
     background-color: rgb(255, 228, 225);
     padding: 20px 25px 10px;
@@ -114,7 +111,7 @@ li {
 }
 
 
-/* ---------- CARA BERTERNAK ---------- */
+
 #beternak {
     background-color: rgb(255, 240, 245);
     padding: 20px 25px 10px;
@@ -130,7 +127,7 @@ li {
 }
 
 
-/* ---------- KOLEKSI FOTO (4 gambar) ---------- */
+
 .koleksi {
     background-color: navy;
     text-align: center;
@@ -143,7 +140,7 @@ li {
 }
 
 
-/* ---------- PROMO / HARGA ---------- */
+
 .promo {
     background-color: pink;
     color: white;
