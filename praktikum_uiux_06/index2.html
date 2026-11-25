@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Mandiri - Pengolah Nilai Mahasiswa</title>
+</head>
+<body>
+    <h2>Praktikum Mandiri: Pengolah Nilai Mahasiswa</h2>
+    <p>Lihat hasil melalui Console (F12).</p>
+
+    <script>
+        // Deklarasi identitas dan komponen nilai mahasiswa
+        const nama = "Muhammad Rifhan Kasyfa";
+        const tugas = 85;
+        const uts = 73;
+        const uas = 92;
+
+        // Menghitung total nilai akhir dengan pembobotan (25% Tugas, 25% UTS, 50% UAS)
+        const nilaiAkhir = tugas * 0.25 + uts * 0.25 + uas * 0.50;
+
+        // Menentukan status kelulusan berdasarkan batas nilai minimum 60
+        let status;
+        if (nilaiAkhir >= 60) {
+            status = "LULUS";
+        } else {
+            status = "TIDAK LULUS";
+        }
+
+        // Menampilkan hasil akhir ke dalam console browser
+        console.log("Nama mahasiswa:", nama);
+        console.log("Nilai akhir:", nilaiAkhir);
+        console.log("Status kelulusan:", status);
+    </script>
+</body>
+</html>
